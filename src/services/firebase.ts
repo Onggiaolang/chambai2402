@@ -27,13 +27,15 @@ import type { User, Class, StudentInClass } from '../types';
 import { Role } from '../types';
 
 // ============ FIREBASE CONFIG ============
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAPoANvUvP_wbvjJ6GXqgACBMFXwi3Sz50",
-  authDomain: "classroom-manager-e75a6.firebaseapp.com",
-  projectId: "classroom-manager-e75a6",
-  storageBucket: "classroom-manager-e75a6.firebasestorage.app",
-  messagingSenderId: "688827951316",
-  appId: "1:688827951316:web:8d25073353884f5888b341"
+  apiKey: "AIzaSyAGK9C4yKgA3T661RMB_K7fWotzQG_wg-s",
+  authDomain: "chambai2402.firebaseapp.com",
+  projectId: "chambai2402",
+  storageBucket: "chambai2402.firebasestorage.app",
+  messagingSenderId: "237962848552",
+  appId: "1:237962848552:web:e20f7e5026f2bab745081d",
+  measurementId: "G-WTYPVBL4YW"
 };
 
 // Initialize Firebase
